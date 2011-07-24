@@ -44,7 +44,7 @@ exports["destroySession"] = function(test){
     parsedUrl = { action: 'readAsArray', id: 'ts49vmf0p732iafr25mdu8gvg2' };
     test.equal(sessionHandler.run(parsedUrl), undefined);
 
-	test.done();
+    test.done();
 };
 
 exports["garbageColector"] = function(test){
