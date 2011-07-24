@@ -3,7 +3,7 @@ var sessionHandler = new session();
 var parsedUrl;
 
 exports["testReadUndefinedSession"] = function(test){
-	parsedUrl = { action: 'read', id: 'ts49vmf0p732iafr25mdu8gvg2' };
+    parsedUrl = { action: 'read', id: 'ts49vmf0p732iafr25mdu8gvg2' };
     test.equal(sessionHandler.run(parsedUrl), undefined);
     test.done();
 };
@@ -73,7 +73,7 @@ exports["garbageColector"] = function(test){
     parsedUrl = { action: 'readAsArray', id: 'session1' };
     test.equal(sessionHandler.run(parsedUrl).gonzalo, 1);
 
-	test.done();
+    test.done();
 };
 
 
