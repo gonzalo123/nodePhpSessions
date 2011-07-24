@@ -1,4 +1,4 @@
-var session = require('../lib/SessionHandler.js').SessionHandler;
+var session = require('nodePhpSessions').SessionHandler;
 var sessionHandler = new session();
 var parsedUrl;
 

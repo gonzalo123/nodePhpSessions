@@ -1,6 +1,6 @@
 var http = require('http'),
     url  = require('url'),
-    session = require('../lib/SessionHandler.js').SessionHandler;
+    session = require('nodePhpSessions').SessionHandler;
 
 var sessionHandler = new session();
 
