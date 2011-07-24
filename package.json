@@ -1,0 +1,14 @@
+{
+    "name": "nodePhpSessions"
+  , "version": "0.0.1"
+  , "description": "PHP session handler with node.js"
+  , "homepage": "http://gonzalo123.wordpress.com"
+  , "keywords": ["php", "sessions", "handler", "phpSessionHandler", "comet", "ajax"]
+  , "author": "Gonzalo Ayuso <gonzalo123@gmail.com>"
+  , "repository":{
+        "type": "git"
+      , "url": "https://github.com/gonzalo123/nodePhpSessions.git"
+    }
+  , "main": "index"
+  , "engines": { "node": ">= 0.4.0" }
+}
