@@ -1,5 +1,5 @@
 /*!
- * socket.io-node
+ * nodePhpSessions
  * Copyright(c) 2011 Gonzalo Ayuso <gonzalo123@gmail.com>
  * MIT Licensed
  */
